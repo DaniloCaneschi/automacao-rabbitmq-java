@@ -1,0 +1,2 @@
+FROM rabbitmq:3.9-management
+RUN rabbitmq-plugins enable --offline rabbitmq_management rabbitmq_management_agent rabbitmq_mqtt rabbitmq_web_mqtt rabbitmq_web_mqtt_examples
